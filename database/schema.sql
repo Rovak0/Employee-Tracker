@@ -10,7 +10,7 @@ CREATE DATABASE workforce_db;
 --so, there are departments, staffed by roles, filled by people
 CREATE TABLE departments (
     id serial primary key,
-    dep_name varchar(30),
+    dep_name varchar(30)
 );
 
 CREATE TABLE roles(
